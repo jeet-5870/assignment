@@ -6,50 +6,74 @@
   <title>Assignment</title>
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <h3>Few facts about the world we live in</h3>
-  <img src="earth.jpg" alt="earth-image" width="300" >
-  <p>Earth is the third planet from the Sun and is the largest of the terrestrial planets. The earth is the only planet in our solar system not to be named after the Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.</p>
-  <hr>
+  <header>
 
-  <h3>About the Earth</h3>
-  <ul>
-    <li>Mass: 5,972,190,000,000,000 billion kg</li>
-    <li>Equatorial Diameter: 12,756km.</li>
-    <li>Notable moon: <a href="https://moon.nasa.gov/">moon</a> </li>
-  </ul>
+    <h1>Welcome to my web Page!</h1>
+  </header>
+  <section>
+    <h2>About Us</h2>
+    <p>Welcome to our website! We are dedicated to providing top-quality services to our customers. Our team is passionate about delivering outstanding results, ensuring customer satisfaction, and continuously improving our offerings. Explore our services, watch an informative video, and reach out to us through the contact form below.</p>
+  </section>
+    <hr>
+    <section>
+      <img src="earth.jpg" alt="earth-image" width="300" >
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>Graphic Design</li>
+        <li>SEO Optimization</li>
+        <li>App Dev</li>
+      </ul>
+    </section>
   <hr>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/I753-8PIjd0?si=Oo13FMSY6rKSzLLi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <section>
+    <h2>Watch our video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I753-8PIjd0?si=Oo13FMSY6rKSzLLi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
   <hr>
-  <h3>Top facts anout earth</h3>
-  <ol>
-    <li>The Earth rotation is gradually slowing.</li>
-    <li>Earth is at the cente of Universe.</li>
-    <li>Earth has pawerful magnetic field.</li>
-  </ol>
-  <hr>
-  <table>
-    <thead>
+  <section>
+    <h2>Price List</h2>
+    <table>
       <tr>
-        <th>Name</th>
-        <th>Avg temp</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Mars</td>
-        <td>-46 Degree</td>
+        <th>Services</th>
+        <th>Price</th>
       </tr>
       <tr>
-        <td>Venus</td>
-        <td>462 Degree</td>
+        <th>Web Design</th>
+        <th>$500</th>
       </tr>
-    </tbody>
-  </table>
+      <tr>
+        <th>Graphic Design</th>
+        <th>$500</th>
+      </tr>
+      <tr>
+        <th>SEO Optimization</th>
+        <th>$500</th>
+      </tr>
+      <tr>
+        <th>App Dev</th>
+        <th>$500</th>
+      </tr>
+    </table>
+  </section>
   <hr>
-  <form action="https://www.space.com/ ">
-    <p>Want to know more?</p>
-    <input type="submit">
-  </form>
+  <section>
+    <h2>Contact us</h2>
+    <form action="">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+      <label for="email" id="email" required>Email</label>
+      <input type="email">
+      <label for="phone">Phone</label>
+      <input type="tel">
+      <input type="submit">
+    </form>
+  </section>
+  <footer>
+    <p>Contact us at : abc@gmail.com | Phone: 0123456789</p>
+  </footer>
 </body>
 </html>
